@@ -1,0 +1,34 @@
+*{
+    margin: 0 auto;
+    text-align: center;
+}
+#cd{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cd td, #cd th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#cd tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#cd tr:hover{
+    background-color: #ddd;
+}
+
+#cd th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: skyblue;
+    color: black;
+}
+.Data-cont{
+    margin-bottom: 1rem;
+    width: 80%;
+}

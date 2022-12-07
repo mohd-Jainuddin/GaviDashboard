@@ -1,0 +1,96 @@
+body {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0;
+}
+.vaccine_sidebar {
+  width: 100%;
+  display: grid;
+  height: 10vh;
+  background-color: #959595;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 1fr;
+  text-align: center;
+}
+
+.button_b {
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.button_b:hover {
+  border: 1px solid gold;
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.side_bar {
+  display: none;
+  position: absolute;
+}
+
+@media screen and (max-width: 375px) {
+  div .vaccine_sidebar {
+    width: 80%;
+    display: block;
+    /* height: 100vh; */
+    position: absolute;
+    color: black;
+    background-color: rgb(192, 184, 184);
+    box-shadow: 5px 5px 5px gray;
+    z-index: 1;
+    padding: 3%;
+  }
+  .button_b:hover {
+    border: 1px solid gold;
+    color: black;
+    border-radius: 10px;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  div.vaccine_sidebar {
+    width: 30%;
+    display: block;
+    height: 100vh;
+    position: absolute;
+    color: black;
+    background-color: rgb(192, 184, 184);
+    box-shadow: 5px 5px 5px gray;
+    z-index: 1;
+    padding: 3%;
+  }
+  .button_b:hover {
+    border: 1px solid gold;
+    color: black;
+    border-radius: 10px;
+    width: 100px;
+  }
+
+  .side_bar {
+    display: flex;
+    height: 15px;
+    font-size: 30px;
+    position: absolute;
+    z-index: 10;
+    margin: auto;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .side_bar {
+    display: flex;
+    height: 15px;
+    font-size: 30px;
+    position: absolute;
+    z-index: 10;
+    margin: auto;
+    cursor: pointer;
+  }
+}

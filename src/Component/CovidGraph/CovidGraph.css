@@ -1,0 +1,49 @@
+.graph_container{
+    position: absolute;
+    top:30%;
+    right:15%;
+    background-color:#fff ;
+    box-shadow:5px 5px 5px gray ;
+}
+.heading_graph{
+text-align: center;
+font-weight: bold;
+}
+
+.Areachart{
+display: flex;
+justify-content: center;
+}
+
+.daily_changes{
+position: absolute;
+right: 0%;
+top: 0%;
+
+}
+
+
+@media screen and (max-width:375px){
+  
+.graph_container{
+position: absolute;
+top:30%;
+left: 140%;
+background-color:#fff ;
+box-shadow:5px 5px 5px gray ;
+}
+.Areachart{
+display: flex;
+justify-content: center;
+margin-top: 40px;
+width: 50%;
+}
+.daily_changes{
+position: absolute;
+right: 0%;
+top:0%;
+width:120px;
+}
+}
+
+

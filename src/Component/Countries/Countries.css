@@ -1,0 +1,25 @@
+.country_data_info{
+    text-align: center;
+}
+
+.graph_container1{
+    display: flex;
+    margin-top:5%;
+     justify-content: space-around;
+     background-color:#fff;
+     box-shadow:5px 5px 5px gray ;
+}
+
+@media screen and (max-width:375px){
+
+    .country_data_info{
+        text-align: center;
+    }
+    .graph_container1{
+         display:grid;
+         grid-template-columns:1fr;
+         background-color:#fff;
+         position: absolute;
+        margin: 5px;
+    }
+}

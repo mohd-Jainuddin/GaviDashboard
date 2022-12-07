@@ -1,0 +1,21 @@
+/* body{
+  background-color:#022b3a;
+} */
+
+.dna{
+
+  text-align: center;
+  margin-top: 20%;
+}
+
+
+
+
+@media screen and (max-width:375px) {
+  .dna{
+
+    text-align: center;
+    margin-top: 60%;
+  }
+  
+  }

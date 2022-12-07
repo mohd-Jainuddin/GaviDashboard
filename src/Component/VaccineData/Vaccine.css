@@ -1,0 +1,75 @@
+.vaccine_data_body {
+  overflow-y: auto;
+  height: 58vh;
+  width: 100%;
+}
+.all1 {
+  position: absolute;
+  top: 30%;
+  right: 13%;
+  background-color: #fff;
+}
+
+.heading_vaccine1 {
+  display: flex;
+}
+
+.heading_vaccine1 h3 {
+  margin-left: 10%;
+  font-size: 25px;
+}
+
+table td {
+  background-color: #fff;
+  padding: 2%;
+  margin: 1%;
+  text-align: center;
+  border-collapse: collapse;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.developerResearcher_data1 {
+  color: #fca311;
+}
+
+.phase_data1 {
+  color: #e71d36;
+  width: 20%;
+}
+
+.category_data1 {
+  color: #54dacc;
+}
+
+
+
+@media screen and (max-width:375px){
+  .vaccine_data_body {
+    overflow-y: auto;
+    height: 100vh;
+    width:160%;
+  }
+  .all1 {
+    position: absolute;
+    top: 30%;
+    left:1%;
+    background-color: #fff;
+    text-align: center;
+  }
+  table td {
+    background-color: #fff;
+    padding:2%;
+    margin-right:180%;
+    text-align: center;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 5px gray;
+  }
+
+  .heading_vaccine1 {
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+
+  }
+}
+

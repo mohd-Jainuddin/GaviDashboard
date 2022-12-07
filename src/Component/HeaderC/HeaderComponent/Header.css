@@ -1,0 +1,132 @@
+.navbar{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 20%;
+    padding: 2px;
+}
+.left > img{
+    width: 85%;
+}
+.right{
+    width: 100%;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style-type: none;
+    font-size: 65%;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: green;
+}
+
+.sublinks1{
+    display: none;
+    padding: 2px;
+}
+
+.sublinks1 ul li{
+    margin-right: 30%;
+    padding: 3%;
+    font-size: 90%;
+}
+
+.list li:hover .sublinks1{
+    display: block;
+    position: absolute;
+    background-color: white;
+    color: black;
+}
+
+.sublinks2{
+    display: none;
+    padding: 2px;
+}
+
+.sublinks2 ul li{
+    margin-right: 30%;
+    padding: 3%;
+    font-size: 90%;
+}
+
+.list li:hover .sublinks2{
+    display: block;
+    position: absolute;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+
+.sublinks3{
+    display: none;
+    padding: 2px;
+}
+
+.sublinks3 ul li{
+    margin-right: 30%;
+    padding: 3%;
+    font-size: 90%;
+}
+
+.list li:hover .sublinks3{
+    display: block;
+    position: absolute;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+
+.sublinks4{
+    display: none;
+    padding: 2px;
+}
+
+.sublinks4 ul li{
+    margin-right: 30%;
+    padding: 3%;
+    font-size: 90%;
+}
+
+.list li:hover .sublinks4{
+    display: block;
+    position: absolute;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+
+.sublinks5{
+    display: none;
+    padding: 2px;
+}
+
+.sublinks5 ul li{
+    margin-right: 30%;
+    padding: 3%;
+    font-size: 90%;
+}
+
+.list li:hover .sublinks5{
+    display: block;
+    position: absolute;
+    text-align: left;
+    background-color: white;
+    color: black;
+}

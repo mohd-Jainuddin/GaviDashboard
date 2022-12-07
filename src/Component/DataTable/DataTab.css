@@ -1,0 +1,12 @@
+.dataCont ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.btn{
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: skyblue;
+}

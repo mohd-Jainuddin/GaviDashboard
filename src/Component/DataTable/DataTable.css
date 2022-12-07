@@ -1,0 +1,34 @@
+.dataCont{
+    position:relative;
+    top: 90%;
+    width: 80%;
+
+}
+
+.container{
+    position:absolute;
+    top: 90%;
+    left:10% ;
+    width:85%;
+}
+
+.li_li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@media screen and (max-width:375px) {
+    .dataCont{
+        position:relative;
+        top: 90%;
+        width: 80%;
+    
+    }
+    
+    .container{
+        position:absolute;
+        top:125%;
+        width:85%;
+    }
+    
+}

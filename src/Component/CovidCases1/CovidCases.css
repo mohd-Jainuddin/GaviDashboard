@@ -1,0 +1,21 @@
+.heading_count{
+    text-align: center;
+}
+.main_chart_container {
+   display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:375px){
+
+    .country_data_info{
+        text-align: center;
+    }
+    .main_chart_container {
+         display:grid;
+         grid-template-columns:1fr;
+         background-color:#fff;
+         position: absolute;
+          margin-top: 5px;
+    }
+}
